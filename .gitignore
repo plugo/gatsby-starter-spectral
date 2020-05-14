@@ -1,5 +1,10 @@
 # Project dependencies
 .cache
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+.vscode
 node_modules
 yarn-error.log
 package-lock.json
