@@ -1,4 +1,4 @@
-# Paul Lugo UX Developer for Gallup
+# Paul Lugo UX Developer
 
 This site is built on a Gatsby.js V2 starter template based on Spectral by HTML5 UP and deployed via Netlify.
 

@@ -16,7 +16,7 @@ export default function Footer() {
         })}
       </ul>
       <ul className="copyright">
-        <li>&copy; 2020 Spectral</li>
+        <li>&copy; 2020 UX Omaha</li>
         <li>
           Design: <a href="http://html5up.net">HTML5 UP</a>
         </li>
