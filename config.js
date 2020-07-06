@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Paul Lugo | UX Developer', // <title>
+  siteTitle: 'Paul Lugo | Senior UX Developer', // <title>
   manifestName: 'Portfolio',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -7,9 +7,8 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  // pathPrefix: `/gatsby-starter-spectral/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Paul Lugo',
-  subHeading: 'Full time UX Developer. Part time illustrator.  ',
+  subHeading: 'Full time Senior UX Developer. Part time artist.  ',
   // social
   socialLinks: [
     {
@@ -22,7 +21,7 @@ module.exports = {
       style: 'brands',
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/pmsketcher',
+      url: 'https://twitter.com/parklugo',
     },
     {
       style: 'solid',
