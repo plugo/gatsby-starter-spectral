@@ -128,25 +128,25 @@ const IndexPage = () => (
         <ul className="features">
           <li className="icon solid fa-football-ball">
             <h3><a href="https://www.orientaltrading.com/vertical-four-image-graduation-photo-door-custom-banner-a2-13667953.fltr?categoryId=551269+1256+18">Personalized Products</a></h3>
-            <p>In 2013, managed a team of 4 as UX Architect and developed the first phase for web-to-print and image upload that resulted in 5% incremental revenue lift over 2 quarters. By 2015, after significant advancements in discovery, development, and scalability, revenue hit $65K per week. Today, it's roughly $2.2M for the year.
+            <p>In 2013, managed a team of 4 as UX Architect and developed the first phase for web-to-print and image upload that resulted in 4% incremental revenue lift over 2 quarters. By 2015, after significant advancements in discovery, development, and scalability, revenue hit $65K per week. Today, it's 30% of revenue.
             </p>
           </li>
           <li className="icon solid fa-award">
             <h3>Top Score</h3>
             <p>
-              Around 2011, the UX team was the driving force behind the achievement for the top customer satisfaction score in the specialty retail category in the nation's top 100 internet retailers.
+              Around 2010, the UX team was the driving force behind the achievement for the top customer satisfaction score in the specialty retail category in the nation's top 100 internet retailers.
             </p>
           </li>
           <li className="icon solid fa-magic">
             <h3><a href="https://orientaltrading.com/">Mega Menu</a></h3>
               <p>
-                Provided the user research for the main navigation, dubbed the mega menu, launched in 2008 with enhancements up to 2014. It's still in use today.
+                The main navigation was launched in 2008, dubbed the mega menu modeled after Amazon's flyout navigation at that time. I performed the user research with iterative enhancments up to 2014, still in use today with some functionality removed.
               </p>
             </li>
           <li className="icon solid fa-chess">
           <h3>UX Team Creation</h3>
             <p>
-              In 2007, hired as the first of two UX developers for optimizing landing pages and email campaigns. By 2008, contributed as decision maker for the hiring of a 6-person team, including a referral for the UX Director from Hayneedle who led our team.
+              In 2007, was hired as the first of two UX developers for optimizing landing pages and email campaigns. By 2008, contributed as decision maker for the hiring of a 6-person team, including a referral for the UX Director from Hayneedle who led our team.
             </p>
           </li>
          {/* <li className="icon fa-heart">

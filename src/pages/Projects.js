@@ -11,8 +11,8 @@ import banner from '../assets/images/banner-2.jpg';
 const IndexPage = () => <Layout>
 	<article id="main">
 		<header>
-			<h2>Projects</h2>
-			<p>Aliquam ut ex ut interdum donec amet imperdiet eleifend</p>
+			<h2>Gallup Projects</h2>
+			<p>Never forget the ultimate goal: Solving your user's problems</p>
 		</header>
 		<section className="wrapper style5">
 			<div className="inner">
