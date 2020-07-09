@@ -149,18 +149,6 @@ const IndexPage = () => (
               In 2007, was hired as the first of two UX developers for optimizing landing pages and email campaigns. By 2008, contributed as decision maker for the hiring of a 6-person team, including a referral for the UX Director from Hayneedle who led our team.
             </p>
           </li>
-         {/* <li className="icon fa-heart">
-            <h3></h3>
-            <p>
-
-            </p>
-          </li>
-          <li className="icon fa-flag">
-            <h3>UX Team Creation</h3>
-            <p>
-              In 2007, hired as the first of two UX developers for optimizing landing pages and email campaigns. By 2008, contributed as decision maker for the hiring of a 6-person team, including a referral for the UX Director.
-            </p>
-          </li>*/}
         </ul>
       </div>
     </section>

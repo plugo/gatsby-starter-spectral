@@ -619,6 +619,7 @@
 		position: relative;
 
 		img {
+			border: 1px solid _palette(accent2, border);
 			border-radius: 3px;
 			display: block;
 		}
@@ -720,6 +721,7 @@
 					padding-left: 0;
 				}
 			}
+
 		}
 
 		&.stacked {
@@ -1496,7 +1498,7 @@
 	#header {
 		@include vendor('transition', 'background-color #{_duration(transitions)} ease');
 		background: _palette(bg);
-		height: 3em;
+		height: 3.1em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
@@ -1553,6 +1555,9 @@
 						&.menuToggle {
 							outline: 0;
 							position: relative;
+							background-color: #2e3842;
+							border-radius: 3px;
+							opacity: .75;
 
 							&:after {
 								background-image: url('../images/bars.png');

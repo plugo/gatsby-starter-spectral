@@ -2,12 +2,10 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+import app01 from '../assets/images/app01.png';
 import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
-import banner from '../assets/images/banner-2.jpg';
+import banner from '../assets/images/legacy.png';
 const IndexPage = () => <Layout>
 	<article id="main">
 		<header>
@@ -16,25 +14,69 @@ const IndexPage = () => <Layout>
 		</header>
 		<section className="wrapper style5">
 			<div className="inner">
-
 				<section>
-					<h4>Text</h4>
+					{/*<h4>Text</h4>
 					<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
 					This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
 					This is <u>underlined</u> and this is code: <code>for (;;) {`{ ... }`}</code>. Finally, <a href="/#">this is a link</a>.</p>
-					<hr />
+					<hr />*/}
 					<header>
-						<h4>Heading with a Subtitle</h4>
-						<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+						<h4>Spaces Reorganization</h4>
+						<p>An internal CMS/CRM application known as Spaces was restructured and redesigned.</p>
 					</header>
-					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-					<header>
-						<h5>Heading with a Subtitle</h5>
-						<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-					</header>
-					<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+					<h5>Overview</h5>
+					<p>The Spaces application serves Gallup associates whose mission is to impact every inidividual passing through our internal strengths-based system with a much needed restructure and visual update. The legacy system was built using .NET web forms, 35 CSS files referenced individually, jQuery/jQuery UI, 260 colors, hundreds of unused images, 12 web fonts, outdated plugins and controls, and a huge backlog of user complaints, bug fixes, and slated improvements.</p>
+					<div className="box alt">
+						<div className="row gtr-50 gtr-uniform">
+							<div className="col-12"><span className="image fit"><img src={banner} alt="Legacy CMS screenshot" /></span></div>
+						</div>
+					</div>
 					<hr />
-					<h2>Heading Level 2</h2>
+					<h5>The Challenge</h5>
+					<p>The Software Architect challenged our team with a common situation - to rethink, reorganize, and rebuild the Spaces application providing a more intuitive and modern experience for our internal audience consisting of: software developers, editors, copywriters, marketers, technical project administrators and managers. The underlying functionality was to remain as close to the original as possible so as not to disrupt or cause a lot of relearning for our user base.</p>
+					<hr />
+					<h5>Approach</h5>
+					<p>Over the course of the engagement, I worked in 2-week sprints beginning with a discovery phase documenting user research, page flows, scope (<em>must have, nice to have, follow up</em>) and creating a checklist of problem areas resulting in recommendations and goals. Worked progressively with the Scrum Master to begin task strategy and team assignments.</p>
+					<div className="box alt">
+						<div className="row gtr-50 gtr-uniform">
+							<div className="col-12"><span className="image fit"><img src={app01} alt="page flow example" /></span></div>
+						</div>
+					</div>
+					<p>Moved on to ideation after approvals, sketching out rough mockups often brainstorming with the Software Architect or team leading into wireframing and low-fidelity prototypes with an eye on technical feasibility.</p>
+					<div className="box alt">
+						<div className="row gtr-50 gtr-uniform">
+							<div className="col-4"><span className="image fit"><img src={pic4} alt="" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pic5} alt="" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pic4} alt="" /></span></div>
+						</div>
+					</div>
+					<p>At the high-fidelity prototype stage, user testing began on a regular basis in code reviews or quick demos with a chosen group of target audience members. The goal here was less clicks and with each iteration, the UI became more refined while building an inventory of reusable components. A UX designer was brought in at this point to outline branding expectations.</p>
+					<div className="box alt">
+						<div className="row gtr-50 gtr-uniform">
+							<div className="col-4"><span className="image fit"><img src={pic4} alt="" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pic5} alt="" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pic4} alt="" /></span></div>
+						</div>
+					</div>
+					<p>Once we reached the UI Design step, proof-of-concepts were developed into an extensive HTML/CSS/JS library of modules and templates, not losing sight of accessibility adaptation. This library consisted of the components detailed in the prototype step built for ease-of-use and scalability.</p>
+					<div className="box alt">
+						<div className="row gtr-50 gtr-uniform">
+							<div className="col-4"><span className="image fit"><img src={pic4} alt="" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pic5} alt="" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pic4} alt="" /></span></div>
+						</div>
+					</div>
+					<h5>Final Product</h5>
+					<p>Through the evolution of retooling our front-end workflow using Bootstrap 4, Sass, SVG Sprites, opting to use C# over JavaScript, Node/NPM modules and scripting, the team transitioned over to .NET Blazor with a new API called Shuttle. The final product uses, 2 web fonts, 14 colors, 2 SVG sprites, 1 CSS file compiled from Sass, semantic HTML, and meets the guidelines for WCAG 2.0.</p>
+					<div className="box alt">
+						<div className="row gtr-50 gtr-uniform">
+							<div className="col-4"><span className="image fit"><img src={pic4} alt="" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pic5} alt="" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pic4} alt="" /></span></div>
+						</div>
+					</div>
+
+					{/*<h2>Heading Level 2</h2>
 					<h3>Heading Level 3</h3>
 					<h4>Heading Level 4</h4>
 					<h5>Heading Level 5</h5>
@@ -54,10 +96,10 @@ const IndexPage = () => <Layout>
 
 							print 'It took ' + i + ' iterations to sort the deck.';
 					</code>
-					</pre>
+					</pre>*/}
 				</section>
 
-				<section>
+				{/*<section>
 					<h4>Lists</h4>
 					<div className="row">
 						<div className="col-6 col-12-medium">
@@ -124,9 +166,9 @@ const IndexPage = () => <Layout>
 							</ul>
 						</div>
 					</div>
-				</section>
+				</section>*/}
 
-				<section>
+				{/*<section>
 					<h4>Table</h4>
 					<h5>Default</h5>
 					<div className="table-wrapper">
@@ -219,9 +261,9 @@ const IndexPage = () => <Layout>
 							</tfoot>
 						</table>
 					</div>
-				</section>
+				</section>*/}
 
-				<section>
+				{/*<section>
 					<h4>Buttons</h4>
 					<ul className="actions">
 						<li><a href="/#" className="button primary">Primary</a></li>
@@ -250,9 +292,9 @@ const IndexPage = () => <Layout>
 						<li><span className="button primary disabled">Disabled</span></li>
 						<li><span className="button disabled">Disabled</span></li>
 					</ul>
-				</section>
+				</section>*/}
 
-				<section>
+				{/*<section>
 					<h4>Form</h4>
 					<form method="post" action="#">
 						<div className="row gtr-uniform">
@@ -302,9 +344,9 @@ const IndexPage = () => <Layout>
 							</div>
 						</div>
 					</form>
-				</section>
+				</section>*/}
 
-				<section>
+				{/*<section>
 					<h4>Image</h4>
 					<h5>Fit</h5>
 					<div className="box alt">
@@ -321,10 +363,11 @@ const IndexPage = () => <Layout>
 							<div className="col-4"><span className="image fit"><img src={pic3} alt="" /></span></div>
 						</div>
 					</div>
-					<h5>Left &amp; Right</h5>
+					<h5>Left</h5>
 					<p><span className="image left"><img src={pic4} alt="" /></span>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien. Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
+					<h5>Right</h5>
 					<p><span className="image right"><img src={pic5} alt="" /></span>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius. Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat. Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui.</p>
-				</section>
+				</section>*/}
 
 			</div>
 		</section>
