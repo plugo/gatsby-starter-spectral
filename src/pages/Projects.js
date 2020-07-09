@@ -32,7 +32,7 @@ const IndexPage = () => <Layout>
 					<p>The Spaces application serves Gallup associates whose mission is to impact every inidividual passing through our internal strengths-based system with a much needed restructure and visual update. The legacy system was built using .NET web forms, 35 CSS files referenced individually plus inline CSS, jQuery/jQuery UI, 260 colors, hundreds of unused images, 12 web fonts, outdated plugins and controls, and a huge backlog of user complaints, bug fixes, and slated improvements. The average page load time was 28 seconds with several outstanding times at 120+ seconds. Since the applications are for internal use only, our team does not have access to the usability lab or user testing apps, and limited UX designer resources. This is the main reason I was brought in as a lead UX developer.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-							<div className="col-12"><span className="image fit"><img src={banner} alt="Legacy CMS screenshot" /></span></div>
+							<div className="col-12"><span className="image fit"><img src={banner} alt="screenshot of a legacy CMS application" /></span></div>
 						</div>
 					</div>
 					<hr />
@@ -49,32 +49,32 @@ const IndexPage = () => <Layout>
 					<p>Moved on to ideation after approvals, sketched out rough mockups often brainstorming with the Software Architect or team leading into low-fidelity prototypes with an eye on technical feasibility.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-							<div className="col-4"><span className="image fit"><img src={id1} alt="sketches" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={id2} alt="homepage low-fidelity" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={id3} alt="homepage low-fidelity 2" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={id1} alt="sketchbooks with ideas" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={id2} alt="first version of home page low-fidelity prototype" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={id3} alt="second version of home page low-fidelity prototype" /></span></div>
 						</div>
 					</div>
 					<p>At the high-fidelity prototype stage, user testing began on a regular basis in code reviews or quick demos with a chosen group of target audience members. The goal was less clicks, less scrolling, and with each iteration, the UI became more refined while building an inventory of reusable components. A UX designer was brought in at this point to outline branding expectations.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-							<div className="col-4"><span className="image fit"><img src={pro1} alt="high-fidelity homepage" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pro2} alt="high-fidelity basic" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pro3} alt="high-fidelity ui components" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pro1} alt="high-fidelity of home page" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pro2} alt="high-fidelity of add category page" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pro3} alt="high-fidelity of ui components" /></span></div>
 						</div>
 					</div>
 					<p>Once I reached the UI Design step, the front-end workflow was put in place and proof-of-concepts were coded first in a Sandbox development environment before handing off and collaborating with the .NET developers to build out an extensive HTML/CSS/JS library of modules and templates, not losing sight of accessibility adaptation.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-							<div className="col-4"><span className="image fit"><img src={ui1} alt="bootstrap setup" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={ui1} alt="bootstrap 4 setup" /></span></div>
 							<div className="col-4"><span className="image fit"><img src={ui2} alt="dropdown test code" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={ui3} alt="visual studio example" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={ui3} alt="visual studio example of development code" /></span></div>
 						</div>
 					</div>
 					<h5>Final Product</h5>
 					<p>Through the evolution of retooling our front-end workflow using Bootstrap 4, Sass, SVG Sprites, opting to use C# over JavaScript, Node/NPM modules and scripting, the team transitioned over to .NET Blazor with a new API called Shuttle. The final product uses, 2 web fonts, 14 colors, 2 SVG sprites, 6 images, 1 CSS file compiled from Sass, semantic HTML, and meets the guidelines for WCAG 2.0.</p>
 					<div className="box alt">
-							<div className="col-12"><span className="image fit"><img src={fin1} alt="" /></span></div>
-							<div className="col-12"><span className="image fit"><img src={fin2} alt="" /></span></div>
+							<div className="col-12"><span className="image fit"><img src={fin1} alt="production page for add events" /></span></div>
+							<div className="col-12"><span className="image fit"><img src={fin2} alt="production page for home page" /></span></div>
 					</div>
 				</section>
 			</div>

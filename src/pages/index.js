@@ -65,7 +65,7 @@ const IndexPage = () => (
     <section id="two" className="wrapper alt style2">
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="" />
+          <img src={pic1} alt="lightbulb represents a discovery phase" aria-hidden="true" />
         </div>
         <div className="content">
           <h2>
@@ -78,7 +78,7 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic2} alt="" />
+          <img src={pic2} alt="example of a wireframe" />
         </div>
         <div className="content">
           <h2>
@@ -91,7 +91,7 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic3} alt="" />
+          <img src={pic3} alt="Example of a high-fidelity prototype" />
         </div>
         <div className="content">
           <h2>
@@ -103,7 +103,7 @@ const IndexPage = () => (
         </div>
       </section><section className="spotlight">
         <div className="image">
-          <img src={pic3b} alt="" />
+          <img src={pic3b} alt="example of coded prototype" />
         </div>
         <div className="content">
           <h2>
