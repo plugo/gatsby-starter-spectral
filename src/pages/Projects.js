@@ -3,8 +3,17 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import app01 from '../assets/images/app01.png';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
+import id1 from '../assets/images/ideation01.jpg';
+import id2 from '../assets/images/ideation02.jpg';
+import id3 from '../assets/images/ideation03.jpg';
+import pro1 from '../assets/images/proto01.png';
+import pro2 from '../assets/images/proto02.png';
+import pro3 from '../assets/images/proto03.png';
+import ui1 from '../assets/images/ui01.png';
+import ui2 from '../assets/images/ui02.png';
+import ui3 from '../assets/images/ui03.png';
+import fin1 from '../assets/images/final01.jpg';
+import fin2 from '../assets/images/final02.jpg';
 import banner from '../assets/images/legacy.png';
 const IndexPage = () => <Layout>
 	<article id="main">
@@ -15,17 +24,12 @@ const IndexPage = () => <Layout>
 		<section className="wrapper style5">
 			<div className="inner">
 				<section>
-					{/*<h4>Text</h4>
-					<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-					This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-					This is <u>underlined</u> and this is code: <code>for (;;) {`{ ... }`}</code>. Finally, <a href="/#">this is a link</a>.</p>
-					<hr />*/}
 					<header>
 						<h4>Spaces Reorganization</h4>
-						<p>An internal CMS/CRM application known as Spaces was restructured and redesigned.</p>
+						<p>An internal CMS/CRM application known as Spaces was restructured, redesigned, and launched in June 2020.</p>
 					</header>
 					<h5>Overview</h5>
-					<p>The Spaces application serves Gallup associates whose mission is to impact every inidividual passing through our internal strengths-based system with a much needed restructure and visual update. The legacy system was built using .NET web forms, 35 CSS files referenced individually, jQuery/jQuery UI, 260 colors, hundreds of unused images, 12 web fonts, outdated plugins and controls, and a huge backlog of user complaints, bug fixes, and slated improvements.</p>
+					<p>The Spaces application serves Gallup associates whose mission is to impact every inidividual passing through our internal strengths-based system with a much needed restructure and visual update. The legacy system was built using .NET web forms, 35 CSS files referenced individually plus inline CSS, jQuery/jQuery UI, 260 colors, hundreds of unused images, 12 web fonts, outdated plugins and controls, and a huge backlog of user complaints, bug fixes, and slated improvements. The average page load time was 28 seconds with several outstanding times at 120+ seconds. Since the applications are for internal use only, our team does not have access to the usability lab or user testing apps, and limited UX designer resources. This is the main reason I was brought in as a lead UX developer.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
 							<div className="col-12"><span className="image fit"><img src={banner} alt="Legacy CMS screenshot" /></span></div>
@@ -33,342 +37,46 @@ const IndexPage = () => <Layout>
 					</div>
 					<hr />
 					<h5>The Challenge</h5>
-					<p>The Software Architect challenged our team with a common situation - to rethink, reorganize, and rebuild the Spaces application providing a more intuitive and modern experience for our internal audience consisting of: software developers, editors, copywriters, marketers, technical project administrators and managers. The underlying functionality was to remain as close to the original as possible so as not to disrupt or cause a lot of relearning for our user base.</p>
+					<p>The Software Architect challenged our team with a common situation - to rethink, reorganize, and rebuild the Spaces application providing a more intuitive, modern experience with an overall site load goal of 5 seconds or less for our internal audience consisting of: software developers, editors, copywriters, marketers, technical project administrators and managers. The underlying back-end processes were to remain as close to the original as possible so as not to disrupt or cause a lot of relearning for our user base. Mobile device was limited to tablet landscape. As of March 2020 with the implementation of .NET Blazor, browser support consists of the latest Chrome, Firefox, and Chromium Edge and is strictly enforced within the company.</p>
 					<hr />
 					<h5>Approach</h5>
-					<p>Over the course of the engagement, I worked in 2-week sprints beginning with a discovery phase documenting user research, page flows, scope (<em>must have, nice to have, follow up</em>) and creating a checklist of problem areas resulting in recommendations and goals. Worked progressively with the Scrum Master to begin task strategy and team assignments.</p>
+					<p>Over the course of the engagement, I worked in 2-week sprints beginning with a discovery phase documenting analysis, user research, page flows, scope (<em>must have, nice to have, follow up</em>) and creating a checklist of problem areas resulting in recommendations and goals. Worked progressively with the Scrum Master to begin task strategy and team assignments.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
 							<div className="col-12"><span className="image fit"><img src={app01} alt="page flow example" /></span></div>
 						</div>
 					</div>
-					<p>Moved on to ideation after approvals, sketching out rough mockups often brainstorming with the Software Architect or team leading into wireframing and low-fidelity prototypes with an eye on technical feasibility.</p>
+					<p>Moved on to ideation after approvals, sketched out rough mockups often brainstorming with the Software Architect or team leading into low-fidelity prototypes with an eye on technical feasibility.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-							<div className="col-4"><span className="image fit"><img src={pic4} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic5} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic4} alt="" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={id1} alt="sketches" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={id2} alt="homepage low-fidelity" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={id3} alt="homepage low-fidelity 2" /></span></div>
 						</div>
 					</div>
-					<p>At the high-fidelity prototype stage, user testing began on a regular basis in code reviews or quick demos with a chosen group of target audience members. The goal here was less clicks and with each iteration, the UI became more refined while building an inventory of reusable components. A UX designer was brought in at this point to outline branding expectations.</p>
+					<p>At the high-fidelity prototype stage, user testing began on a regular basis in code reviews or quick demos with a chosen group of target audience members. The goal was less clicks, less scrolling, and with each iteration, the UI became more refined while building an inventory of reusable components. A UX designer was brought in at this point to outline branding expectations.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-							<div className="col-4"><span className="image fit"><img src={pic4} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic5} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic4} alt="" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pro1} alt="high-fidelity homepage" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pro2} alt="high-fidelity basic" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pro3} alt="high-fidelity ui components" /></span></div>
 						</div>
 					</div>
-					<p>Once we reached the UI Design step, proof-of-concepts were developed into an extensive HTML/CSS/JS library of modules and templates, not losing sight of accessibility adaptation. This library consisted of the components detailed in the prototype step built for ease-of-use and scalability.</p>
+					<p>Once I reached the UI Design step, the front-end workflow was put in place and proof-of-concepts were coded first in a Sandbox development environment before handing off and collaborating with the .NET developers to build out an extensive HTML/CSS/JS library of modules and templates, not losing sight of accessibility adaptation.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-							<div className="col-4"><span className="image fit"><img src={pic4} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic5} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic4} alt="" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={ui1} alt="bootstrap setup" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={ui2} alt="dropdown test code" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={ui3} alt="visual studio example" /></span></div>
 						</div>
 					</div>
 					<h5>Final Product</h5>
-					<p>Through the evolution of retooling our front-end workflow using Bootstrap 4, Sass, SVG Sprites, opting to use C# over JavaScript, Node/NPM modules and scripting, the team transitioned over to .NET Blazor with a new API called Shuttle. The final product uses, 2 web fonts, 14 colors, 2 SVG sprites, 1 CSS file compiled from Sass, semantic HTML, and meets the guidelines for WCAG 2.0.</p>
+					<p>Through the evolution of retooling our front-end workflow using Bootstrap 4, Sass, SVG Sprites, opting to use C# over JavaScript, Node/NPM modules and scripting, the team transitioned over to .NET Blazor with a new API called Shuttle. The final product uses, 2 web fonts, 14 colors, 2 SVG sprites, 6 images, 1 CSS file compiled from Sass, semantic HTML, and meets the guidelines for WCAG 2.0.</p>
 					<div className="box alt">
-						<div className="row gtr-50 gtr-uniform">
-							<div className="col-4"><span className="image fit"><img src={pic4} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic5} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic4} alt="" /></span></div>
-						</div>
+							<div className="col-12"><span className="image fit"><img src={fin1} alt="" /></span></div>
+							<div className="col-12"><span className="image fit"><img src={fin2} alt="" /></span></div>
 					</div>
-
-					{/*<h2>Heading Level 2</h2>
-					<h3>Heading Level 3</h3>
-					<h4>Heading Level 4</h4>
-					<h5>Heading Level 5</h5>
-					<h6>Heading Level 6</h6>
-					<hr />
-					<h5>Blockquote</h5>
-					<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-					<h5>Preformatted</h5>
-					<pre>
-						<code>i = 0;
-
-							while (!deck.isInOrder()) {`{
-							print 'Iteration ' + i;
-							deck.shuffle();
-							i++;
-							}` }
-
-							print 'It took ' + i + ' iterations to sort the deck.';
-					</code>
-					</pre>*/}
 				</section>
-
-				{/*<section>
-					<h4>Lists</h4>
-					<div className="row">
-						<div className="col-6 col-12-medium">
-							<h5>Unordered</h5>
-							<ul>
-								<li>Dolor pulvinar etiam.</li>
-								<li>Sagittis adipiscing.</li>
-								<li>Felis enim feugiat.</li>
-							</ul>
-							<h5>Alternate</h5>
-							<ul className="alt">
-								<li>Dolor pulvinar etiam.</li>
-								<li>Sagittis adipiscing.</li>
-								<li>Felis enim feugiat.</li>
-							</ul>
-						</div>
-						<div className="col-6 col-12-medium">
-							<h5>Ordered</h5>
-							<ol>
-								<li>Dolor pulvinar etiam.</li>
-								<li>Etiam vel felis viverra.</li>
-								<li>Felis enim feugiat.</li>
-								<li>Dolor pulvinar etiam.</li>
-								<li>Etiam vel felis lorem.</li>
-								<li>Felis enim et feugiat.</li>
-							</ol>
-							<h5>Icons</h5>
-							<ul className="icons">
-								<li><a href="/#" className="icon brands fa-twitter"><span className="label">Twitter</span></a></li>
-								<li><a href="/#" className="icon brands fa-facebook-f"><span className="label">Facebook</span></a></li>
-								<li><a href="/#" className="icon brands fa-instagram"><span className="label">Instagram</span></a></li>
-								<li><a href="/#" className="icon brands fa-github"><span className="label">Github</span></a></li>
-							</ul>
-						</div>
-					</div>
-					<h5>Actions</h5>
-					<div className="row">
-						<div className="col-6 col-12-medium">
-							<ul className="actions">
-								<li><a href="/#" className="button primary">Default</a></li>
-								<li><a href="/#" className="button">Default</a></li>
-							</ul>
-							<ul className="actions small">
-								<li><a href="/#" className="button primary small">Small</a></li>
-								<li><a href="/#" className="button small">Small</a></li>
-							</ul>
-							<ul className="actions stacked">
-								<li><a href="/#" className="button primary">Default</a></li>
-								<li><a href="/#" className="button">Default</a></li>
-							</ul>
-							<ul className="actions stacked">
-								<li><a href="/#" className="button primary small">Small</a></li>
-								<li><a href="/#" className="button small">Small</a></li>
-							</ul>
-						</div>
-						<div className="col-6 col-12-medium">
-							<ul className="actions stacked">
-								<li><a href="/#" className="button primary fit">Default</a></li>
-								<li><a href="/#" className="button fit">Default</a></li>
-							</ul>
-							<ul className="actions stacked">
-								<li><a href="/#" className="button primary small fit">Small</a></li>
-								<li><a href="/#" className="button small fit">Small</a></li>
-							</ul>
-						</div>
-					</div>
-				</section>*/}
-
-				{/*<section>
-					<h4>Table</h4>
-					<h5>Default</h5>
-					<div className="table-wrapper">
-						<table>
-							<thead>
-								<tr>
-									<th>Name</th>
-									<th>Description</th>
-									<th>Price</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Item One</td>
-									<td>Ante turpis integer aliquet porttitor.</td>
-									<td>29.99</td>
-								</tr>
-								<tr>
-									<td>Item Two</td>
-									<td>Vis ac commodo adipiscing arcu aliquet.</td>
-									<td>19.99</td>
-								</tr>
-								<tr>
-									<td>Item Three</td>
-									<td> Morbi faucibus arcu accumsan lorem.</td>
-									<td>29.99</td>
-								</tr>
-								<tr>
-									<td>Item Four</td>
-									<td>Vitae integer tempus condimentum.</td>
-									<td>19.99</td>
-								</tr>
-								<tr>
-									<td>Item Five</td>
-									<td>Ante turpis integer aliquet porttitor.</td>
-									<td>29.99</td>
-								</tr>
-							</tbody>
-							<tfoot>
-								<tr>
-									<td colSpan="2"></td>
-									<td>100.00</td>
-								</tr>
-							</tfoot>
-						</table>
-					</div>
-
-					<h5>Alternate</h5>
-					<div className="table-wrapper">
-						<table className="alt">
-							<thead>
-								<tr>
-									<th>Name</th>
-									<th>Description</th>
-									<th>Price</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Item One</td>
-									<td>Ante turpis integer aliquet porttitor.</td>
-									<td>29.99</td>
-								</tr>
-								<tr>
-									<td>Item Two</td>
-									<td>Vis ac commodo adipiscing arcu aliquet.</td>
-									<td>19.99</td>
-								</tr>
-								<tr>
-									<td>Item Three</td>
-									<td> Morbi faucibus arcu accumsan lorem.</td>
-									<td>29.99</td>
-								</tr>
-								<tr>
-									<td>Item Four</td>
-									<td>Vitae integer tempus condimentum.</td>
-									<td>19.99</td>
-								</tr>
-								<tr>
-									<td>Item Five</td>
-									<td>Ante turpis integer aliquet porttitor.</td>
-									<td>29.99</td>
-								</tr>
-							</tbody>
-							<tfoot>
-								<tr>
-									<td colSpan="2"></td>
-									<td>100.00</td>
-								</tr>
-							</tfoot>
-						</table>
-					</div>
-				</section>*/}
-
-				{/*<section>
-					<h4>Buttons</h4>
-					<ul className="actions">
-						<li><a href="/#" className="button primary">Primary</a></li>
-						<li><a href="/#" className="button">Default</a></li>
-					</ul>
-					<ul className="actions">
-						<li><a href="/#" className="button large">Large</a></li>
-						<li><a href="/#" className="button">Default</a></li>
-						<li><a href="/#" className="button small">Small</a></li>
-					</ul>
-					<ul className="actions fit">
-						<li><a href="/#" className="button fit">Fit</a></li>
-						<li><a href="/#" className="button primary fit">Fit</a></li>
-						<li><a href="/#" className="button fit">Fit</a></li>
-					</ul>
-					<ul className="actions fit small">
-						<li><a href="/#" className="button primary fit small">Fit + Small</a></li>
-						<li><a href="/#" className="button fit small">Fit + Small</a></li>
-						<li><a href="/#" className="button primary fit small">Fit + Small</a></li>
-					</ul>
-					<ul className="actions">
-						<li><a href="/#" className="button primary icon solid fa-download">Icon</a></li>
-						<li><a href="/#" className="button icon solid fa-download">Icon</a></li>
-					</ul>
-					<ul className="actions">
-						<li><span className="button primary disabled">Disabled</span></li>
-						<li><span className="button disabled">Disabled</span></li>
-					</ul>
-				</section>*/}
-
-				{/*<section>
-					<h4>Form</h4>
-					<form method="post" action="#">
-						<div className="row gtr-uniform">
-							<div className="col-6 col-12-xsmall">
-								<input type="text" name="demo-name" id="demo-name" defaultValue="" placeholder="Name" />
-							</div>
-							<div className="col-6 col-12-xsmall">
-								<input type="email" name="demo-email" id="demo-email" defaultValue="" placeholder="Email" />
-							</div>
-							<div className="col-12">
-								<select name="demo-category" id="demo-category">
-									<option value="">- Category -</option>
-									<option value="1">Manufacturing</option>
-									<option value="1">Shipping</option>
-									<option value="1">Administration</option>
-									<option value="1">Human Resources</option>
-								</select>
-							</div>
-							<div className="col-4 col-12-small">
-								<input type="radio" id="demo-priority-low" name="demo-priority" defaultChecked />
-								<label htmlFor="demo-priority-low">Low</label>
-							</div>
-							<div className="col-4 col-12-small">
-								<input type="radio" id="demo-priority-normal" name="demo-priority" />
-								<label htmlFor="demo-priority-normal">Normal</label>
-							</div>
-							<div className="col-4 col-12-small">
-								<input type="radio" id="demo-priority-high" name="demo-priority" />
-								<label htmlFor="demo-priority-high">High</label>
-							</div>
-							<div className="col-6 col-12-small">
-								<input type="checkbox" id="demo-copy" name="demo-copy" />
-								<label htmlFor="demo-copy">Email me a copy</label>
-							</div>
-							<div className="col-6 col-12-small">
-								<input type="checkbox" id="demo-human" name="demo-human" defaultChecked />
-								<label htmlFor="demo-human">Not a robot</label>
-							</div>
-							<div className="col-12">
-								<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-							</div>
-							<div className="col-12">
-								<ul className="actions">
-									<li><input type="submit" value="Send Message" className="primary" /></li>
-									<li><input type="reset" value="Reset" /></li>
-								</ul>
-							</div>
-						</div>
-					</form>
-				</section>*/}
-
-				{/*<section>
-					<h4>Image</h4>
-					<h5>Fit</h5>
-					<div className="box alt">
-						<div className="row gtr-50 gtr-uniform">
-							<div className="col-12"><span className="image fit"><img src={banner} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic1} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic2} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic3} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic3} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic2} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic1} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic2} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic1} alt="" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pic3} alt="" /></span></div>
-						</div>
-					</div>
-					<h5>Left</h5>
-					<p><span className="image left"><img src={pic4} alt="" /></span>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien. Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo, tempus sed finibus eget, fringilla quis risus. Maecenas et lorem quis sem varius sagittis et a est. Maecenas iaculis iaculis sem. Donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
-					<h5>Right</h5>
-					<p><span className="image right"><img src={pic5} alt="" /></span>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec dui cursus, posuere dui eget interdum. Fusce lectus magna, sagittis at facilisis vitae, pellentesque at etiam. Quisque posuere leo quis sem commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius. Nam sapien ante, varius in pulvinar vitae, rhoncus id massa. Donec varius ex in mauris ornare, eget euismod urna egestas. Etiam lacinia tempor ipsum, sodales porttitor justo. Aliquam dolor quam, semper in tortor eu, volutpat efficitur quam. Fusce nec fermentum nisl. Aenean erat diam, tempus aliquet erat. Etiam iaculis nulla ipsum, et pharetra libero rhoncus ut. Phasellus rutrum cursus velit, eget condimentum nunc blandit vel. In at pulvinar lectus. Morbi diam ante, vulputate et imperdiet eget, fermentum non dolor. Ut eleifend sagittis tincidunt. Sed viverra commodo mi, ac rhoncus justo. Duis neque ligula, elementum ut enim vel, posuere finibus justo. Vivamus facilisis maximus nibh quis pulvinar. Quisque hendrerit in ipsum id tellus facilisis fermentum. Proin mauris dui.</p>
-				</section>*/}
-
 			</div>
 		</section>
 	</article>
