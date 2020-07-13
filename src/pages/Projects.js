@@ -71,7 +71,7 @@ const IndexPage = () => <Layout>
 						</div>
 					</div>
 					<h5>Final Product</h5>
-					<p>Through the evolution of retooling our front-end workflow using Bootstrap 4, Sass, SVG Sprites, opting to use C# over JavaScript, Node/NPM modules and scripting, the team successfully transitioned over to .NET Blazor with a new API called Shuttle. The final product uses, 2 web fonts, 14 colors, 2 SVG sprites, 6 images, 1 CSS file compiled from Sass, semantic HTML, and meets the guidelines for WCAG 2 AA.</p>
+					<p>Through the evolution of retooling our front-end workflow using Bootstrap 4, Sass, SVG Sprites, opting to use C# over JavaScript, Node/NPM modules and scripting, the team successfully transitioned over to .NET Blazor with a new API called Shuttle. The final product uses, 2 web fonts, 14 colors, 2 SVG sprites, 6 images, 1 CSS file compiled from Sass, semantic HTML, and meets the guidelines for WCAG 2 AA. Site performance optimization measured 1.27 seconds.</p>
 					<div className="box alt">
 							<div className="col-12"><span className="image fit"><img src={fin1} alt="production page for add events" /></span></div>
 							<div className="col-12"><span className="image fit"><img src={fin2} alt="production page for home page" /></span></div>
