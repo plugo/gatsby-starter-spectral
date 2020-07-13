@@ -128,13 +128,13 @@ const IndexPage = () => (
         <ul className="features">
           <li className="icon solid fa-football-ball">
             <h3><a href="https://www.orientaltrading.com/vertical-four-image-graduation-photo-door-custom-banner-a2-13667953.fltr?categoryId=551269+1256+18">Personalized Products</a></h3>
-            <p>In 2013, managed a team of 4 as UX Architect and developed the first phase for web-to-print and image upload that resulted in 4% incremental revenue lift over 2 quarters. By 2015, after significant advancements in discovery, development, and scalability, revenue hit $65K per week. Today, it's 30% of revenue.
+            <p>In 2013, managed a team of 4 as UX Architect and developed the first phase for web-to-print and image upload that resulted in 4% incremental revenue lift over 2 quarters. By 2015, after significant advancements in discovery, development, and scalability, revenue hit $65K per week.
             </p>
           </li>
           <li className="icon solid fa-award">
             <h3>Top Score</h3>
             <p>
-              Around 2010, the UX team was the driving force behind the achievement for the top customer satisfaction score in the specialty retail category in the nation's top 100 internet retailers.
+              During 2012, the UX team was the driving force behind the achievement for the top customer satisfaction score in the specialty retail category in the nation's top 100 internet retailers.
             </p>
           </li>
           <li className="icon solid fa-magic">
