@@ -78,7 +78,7 @@ const IndexPage = () => <Layout>
 							<div className="col-12"><span className="image fit"><img src={fin2} alt="production page for home page" /></span></div>
 					</div>
 				</section>
-				<section>
+				{/*<section>
 				<header>
 						<h4>Gallup Analytics &amp; Reporting</h4>
 						<p></p>
@@ -91,7 +91,7 @@ const IndexPage = () => <Layout>
 						</div>
 					</div>
 					<hr />
-				</section>
+				</section>*/}
 			</div>
 		</section>
 	</article>
