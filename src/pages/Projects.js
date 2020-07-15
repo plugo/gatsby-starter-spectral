@@ -30,6 +30,7 @@ const IndexPage = () => <Layout>
 					</header>
 					<h5>Overview</h5>
 					<p>The Spaces application serves Gallup associates whose mission is to impact every inidividual passing through our internal strengths-based system with a much needed restructure and visual update. The legacy system was built using .NET web forms, 35 CSS files referenced individually plus inline CSS, jQuery/jQuery UI, 260 colors, hundreds of unused images, 12 web fonts, outdated plugins and controls, and a huge backlog of user complaints, bug fixes, and slated improvements. The average page load time was 28 seconds with several outstanding times at 120+ seconds. Since the applications are for internal use only, our team does not have access to the usability lab or user testing apps, and limited UX designer resources. This is the main reason I was brought in as a lead UX developer.</p>
+					<p>As illustrated below, hierarchial elements do not flow well especially with pages that contained a primary, secondary and often tertiary navigation, all separated by buttons or content from each other causing a lot content to fall below browser height resulting in up and down scrolling. There was a lot of spacial mouse movements, often endless scrolling on large tabular data, and no vertical ryhthym, with baseline font set at 13 pixels.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
 							<div className="col-12"><span className="image fit"><img src={banner} alt="screenshot of a legacy CMS application" /></span></div>
@@ -46,7 +47,7 @@ const IndexPage = () => <Layout>
 							<div className="col-12"><span className="image fit"><img src={app01} alt="page flow example" /></span></div>
 						</div>
 					</div>
-					<p>Moved on to ideation after approvals, sketched out rough mockups often brainstorming with the Software Architect or team leading into low-fidelity prototypes with an eye on technical feasibility.</p>
+					<p>Moved on to ideation after approvals, sketched out rough mockups often brainstorming with the Software Architect or team leading into low-fidelity prototypes with an eye on technical feasibility and accessibility. Design principles followed clarity over abundance of choices, maintaining a touch target size of 42-48 pixels for future tablet use, and aiming to keep the complexity of choices down to ease the cognitive load users had constantly complained about.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
 							<div className="col-4"><span className="image fit"><img src={id1} alt="sketchbooks with ideas" /></span></div>
@@ -54,7 +55,7 @@ const IndexPage = () => <Layout>
 							<div className="col-4"><span className="image fit"><img src={id3} alt="second version of home page low-fidelity prototype" /></span></div>
 						</div>
 					</div>
-					<p>At the high-fidelity prototype stage, user testing began on a regular basis in code reviews or quick demos with a chosen group of target audience members. The goal was less clicks, less scrolling, and with each iteration, the UI became more refined while building an inventory of reusable components. A UX designer was brought in at this point to outline branding expectations.</p>
+					<p>At the high-fidelity prototype stage, user testing began on a regular basis in code reviews or quick demos with a chosen group of target audience members. The goal was less clicks, less scrolling, and with each iteration, the UI became more refined while building an inventory of reusable components. A UX designer was brought in at this point to outline branding expectations. I spent a significant amount of time on the aesthetic-usability effect moving from a grayscale color palette while staying within brand color and standards.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
 							<div className="col-4"><span className="image fit"><img src={pro1} alt="high-fidelity of home page" /></span></div>
@@ -71,11 +72,25 @@ const IndexPage = () => <Layout>
 						</div>
 					</div>
 					<h5>Final Product</h5>
-					<p>Through the evolution of retooling our front-end workflow using Bootstrap 4, Sass, SVG Sprites, opting to use C# over JavaScript, Node/NPM modules and scripting, the team successfully transitioned over to .NET Blazor with a new API called Shuttle. The final product uses, 2 web fonts, 14 colors, 2 SVG sprites, 6 images, 1 CSS file compiled from Sass, semantic HTML, and meets the guidelines for WCAG 2 AA. Site performance optimization measured 1.27 seconds.</p>
+					<p>Through the evolution of retooling our front-end workflow using Bootstrap 4, Sass, SVG Sprites, opting to use C# over JavaScript, Node/NPM modules and scripting, the team successfully transitioned over to .NET Blazor with an API named Shuttle. The final product uses, 2 web fonts, 14 colors, 2 SVG sprites, 6 images, 1 CSS file compiled from Sass, semantic HTML, and meets the guidelines for WCAG 2.1 AA. Site performance optimization measured 1.27 seconds.</p>
 					<div className="box alt">
 							<div className="col-12"><span className="image fit"><img src={fin1} alt="production page for add events" /></span></div>
 							<div className="col-12"><span className="image fit"><img src={fin2} alt="production page for home page" /></span></div>
 					</div>
+				</section>
+				<section>
+				<header>
+						<h4>Gallup Analytics &amp; Reporting</h4>
+						<p></p>
+					</header>
+					<h5>Summary</h5>
+					<p>The dashboard interface gives managers what they need </p>
+					<div className="box alt">
+						<div className="row gtr-50 gtr-uniform">
+							<div className="col-12"><span className="image fit"><img src={banner} alt="screenshot of a legacy CMS application" /></span></div>
+						</div>
+					</div>
+					<hr />
 				</section>
 			</div>
 		</section>
