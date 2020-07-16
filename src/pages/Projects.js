@@ -14,6 +14,8 @@ import ui2 from '../assets/images/ui02.png';
 import ui3 from '../assets/images/ui03.png';
 import fin1 from '../assets/images/final01.jpg';
 import fin2 from '../assets/images/final02.jpg';
+import rep from '../assets/images/report.jpg';
+import rep2 from '../assets/images/report02.jpg';
 import banner from '../assets/images/legacy.png';
 const IndexPage = () => <Layout>
 	<article id="main">
@@ -72,26 +74,38 @@ const IndexPage = () => <Layout>
 						</div>
 					</div>
 					<h5>Final Product</h5>
-					<p>Through the evolution of retooling our front-end workflow using Bootstrap 4, Sass, SVG Sprites, opting to use C# over JavaScript, Node/NPM modules and scripting, the team successfully transitioned over to .NET Blazor with an API named Shuttle. The final product uses, 2 web fonts, 14 colors, 2 SVG sprites, 6 images, 1 CSS file compiled from Sass, semantic HTML, and meets the guidelines for WCAG 2.1 AA. Site performance optimization measured 1.27 seconds.</p>
+					<p>Through the evolution of retooling our front-end workflow using Bootstrap 4, Sass, SVG Sprites, opting to use C# over JavaScript, Node/NPM modules and scripting, the team successfully transitioned over to .NET Blazor with an API named Shuttle. The final product uses: 2 web fonts, 14 colors, 2 SVG sprites, 6 images, 1 CSS file compiled from Sass, semantic HTML, and meets the guidelines for WCAG 2.1 AA. Site performance optimization measured 1.27 seconds.</p>
 					<div className="box alt">
 							<div className="col-12"><span className="image fit"><img src={fin1} alt="production page for add events" /></span></div>
 							<div className="col-12"><span className="image fit"><img src={fin2} alt="production page for home page" /></span></div>
 					</div>
+					<hr />
 				</section>
-				{/*<section>
-				<header>
-						<h4>Gallup Analytics &amp; Reporting</h4>
-						<p></p>
+				<section>
+					<header>
+						<h4>Gallup Reports</h4>
+						<p>One page and in-depth research reports</p>
 					</header>
-					<h5>Summary</h5>
-					<p>The dashboard interface gives managers what they need </p>
+					<h5>Report Direct Download</h5>
+					<p>During my time on the DotCom team, I was responsible for redesigning the report pages configured through a series of tabs containing SEO tags, related items, a content editor, tile generator, and asset management in the CMS. Editors and copywriters published their reports and articles here and I was their developer support.</p>
+					<p>Since these reports were pre-existing and simply outdated, the redesign started with sketch work and moved directly to prototyping in HTML/CSS. Several original pages were printed out and taped to the wall for reference as pages were refined. This particular report is immediately downloadable simply by selecting one of the buttons.</p>
+					<p>Live example: <a href="https://www.gallup.com/education/267449/creativity-learning-transformative-technology-gallup-report-2019.aspx">Creativity in Learning</a></p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-							<div className="col-12"><span className="image fit"><img src={banner} alt="screenshot of a legacy CMS application" /></span></div>
+							<div className="col-12"><span className="image fit"><img src={rep} alt="creativity in learning report" /></span></div>
 						</div>
 					</div>
 					<hr />
-				</section>*/}
+					<h5>Two-part Report Download Request</h5>
+					<p>This type of report takes considerable more research and is usually a larger document. The trade-off is capturing user information in a form to gain acess to download the report, and a potential sales lead. A form webpart template was created so all the editor is required to do is attach this module as a related item.</p>
+					<p>Live example: <a href="https://www.gallup.com/education/269648/state-america-schools-report.aspx">State of America's Schools</a></p>
+					<div className="box alt">
+						<div className="row gtr-50 gtr-uniform">
+							<div className="col-12"><span className="image fit"><img src={rep2} alt="state of america's schools report" /></span></div>
+						</div>
+					</div>
+					<hr />
+				</section>
 			</div>
 		</section>
 	</article>
