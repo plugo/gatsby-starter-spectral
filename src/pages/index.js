@@ -7,7 +7,7 @@ import Scroll from '../components/Scroll';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.png';
-import pic3b from '../assets/images/pic03b.png';
+import pic4 from '../assets/images/pic04.png';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -78,7 +78,7 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic2} alt="example of a wireframe" />
+          <img src={pic2} alt="wireframe represents ideation phase" />
         </div>
         <div className="content">
           <h2>
@@ -91,7 +91,7 @@ const IndexPage = () => (
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic3} alt="Example of a high-fidelity prototype" />
+          <img src={pic3} alt="high-fidelity represents prototype phase" />
         </div>
         <div className="content">
           <h2>
@@ -103,7 +103,7 @@ const IndexPage = () => (
         </div>
       </section><section className="spotlight">
         <div className="image">
-          <img src={pic3b} alt="example of coded prototype" />
+          <img src={pic4} alt="code sample represents ui design phase" />
         </div>
         <div className="content">
           <h2>
