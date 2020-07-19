@@ -34,7 +34,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 e.preventDefault();
                 onMenuToggle();
               }}
-              href="#menu"
+              href="#menu" role="presentation" aria-label="Close menu"
             >
               {''}
             </a>
