@@ -161,10 +161,10 @@ const IndexPage = () => <Layout>
 				</section>
 				<section>
 					<header>
-						<h4>In-Progress Rejected Design</h4>
+						<h4>Rejected Prototype</h4>
 						<p>Concept for the Prospects domain scorecard, search results, subscribe, and unsubscribe process</p>
 					</header>
-					<p>This prototype never made it past the Software Architect and stakeholder approval, even with hard data to back it up. The project wasn't completely scrapped though, the tabular data section and pagination elements are used in the Prospects site today. A single auto-suggest search field on an otherwise empty page is all that is presented to the user to query existing domain names. Upon successful submission, the page refreshes with the tabular data.</p>
+					<p>This prototype never made it past the Software Architect and stakeholder approval before user testing could take place. The concept wasn't completely scrapped though, the tabular data section, export and pagination elements are used in the Prospects site today. A single auto-suggest search field on an otherwise empty page is all that is presented to the user to query domain names. Upon successful submission, the page refreshes with the tabular data and each row links to individual subscriptions. Iterative enhancements continue.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
 							<div className="col-12"><span className="image fit"><img src={fail1} alt="individual profile for prospect lead" /></span></div>
