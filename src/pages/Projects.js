@@ -52,7 +52,7 @@ const IndexPage = () => <Layout>
 							</ul>
 						</div>
 					</div>
-					<p>As illustrated below, hierarchial elements did not flow well especially with pages that contained a primary, secondary and often tertiary navigation, all separated by buttons or content from each other causing too much up and down scrolling. There was a lot of spatial mouse movements, accessibility issues, often endless scrolling on large tabular data, and no vertical ryhthym with a baseline font of 13 pixels.</p>
+					<p>As illustrated below, hierarchial elements did not flow well especially with pages that contained a primary, secondary and often tertiary navigation, all separated by buttons or content from each other causing too much up and down scrolling. There was a lot of spatial mouse movements, accessibility issues, often endless scrolling on large tabular data, and no vertical rhythm with a baseline font of 13 pixels.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
 							<div className="col-12"><span className="image fit"><img src={banner} alt="screenshot of a legacy CMS application" /></span></div>
