@@ -9,6 +9,7 @@ import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.png';
 import pic4 from '../assets/images/pic04.png';
 import config from '../../config';
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -140,7 +141,7 @@ const IndexPage = () => (
           <li className="icon solid fa-magic">
             <h3><a href="https://orientaltrading.com/">Mega Menu</a></h3>
               <p>
-                The main navigation was launched in 2008, dubbed the mega menu modeled after Amazon's flyout navigation at that time. I performed the user research with iterative enhancments up to 2014, still in use today with some functionality removed.
+                The main navigation was launched in 2008, dubbed the mega menu modeled after Amazon's flyout navigation at that time. I performed the user research with iterative enhancements up to 2014, still in use today with some functionality removed.
               </p>
             </li>
           <li className="icon solid fa-chess">

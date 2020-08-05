@@ -8,7 +8,7 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   heading: 'Paul Lugo',
-  subHeading: 'Full time Senior UX Developer. Part time artist.  ',
+  subHeading: 'Full time Senior UX Designer. Part time artist.  ',
   // social
   socialLinks: [
     {
