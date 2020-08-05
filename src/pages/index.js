@@ -98,7 +98,7 @@ const IndexPage = () => (
             Prototyping
           </h2>
           <p>
-            From ideation comes the high-fidelity vision prototype. I use Adobe XD for wireframes, quick mockups, and prototyping. During prototype development, testing becomes the norm in weekly code reviews to show progress and gather feedback from members of our internal audience when available. Once an interactive prototype is complete, the team presents it to the stakeholders and a handful of users as a pre-development check.
+            From ideation comes the high-fidelity vision prototype. I use Adobe XD for wireframes, quick mockups, and prototyping. During prototype development, testing becomes the norm in weekly code reviews to show progress and gather feedback from members of our internal audience when available. Once high-fidelity prototype is complete, the team presents it to the stakeholders and a handful of users as a pre-development check.
           </p>
         </div>
       </section><section className="spotlight">
@@ -107,10 +107,10 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            UI Design
+            Interaction Design
           </h2>
           <p>
-            From a high-fidelity vision prototype comes the proof-of-concept used to skin the prototype and build out the components having solid skills in semantic HTML, CSS, RWD, and WCAG. This is handed over to and collaborated with the .NET developers for integration into the production app and tested in pre-production environments.
+            From the interaction design comes the the proof-of-concept used to skin the prototype and build out the components having solid skills in semantic HTML, CSS, RWD, and WCAG. This is handed over to and collaborated with the .NET developers for integration into and tested in pre-production environments.
           </p>
         </div>
       </section>
@@ -122,13 +122,13 @@ const IndexPage = () => (
           <h2>Pre-Gallup Projects</h2>
           <p>
             The following are several accomplishments that I am especially proud of when
-             employed by Oriental Trading with on-request references to back me up.
+             employed by Oriental Trading with on-request references.
           </p>
         </header>
         <ul className="features">
           <li className="icon solid fa-football-ball">
             <h3><a href="https://www.orientaltrading.com/vertical-four-image-graduation-photo-door-custom-banner-a2-13667953.fltr?categoryId=551269+1256+18">Personalized Products</a></h3>
-            <p>In 2013, managed a team of 4 as UX Architect and developed the first phase for web-to-print and image upload that resulted in 4% incremental revenue lift over 2 quarters. By 2015, after significant advancements in discovery, development, and scalability, revenue hit $65K per week.
+            <p>In 2013, managed a team of 4 as UX Architect and developed the first phase for web-to-print and image upload that resulted in 4% incremental revenue lift over Q3 and Q4 of that year. By 2015, after significant advancements in discovery, development, and scalability, revenue hit $100K per week and continues to exceed customer satisfaction.
             </p>
           </li>
           <li className="icon solid fa-award">
@@ -146,7 +146,7 @@ const IndexPage = () => (
           <li className="icon solid fa-chess">
           <h3>UX Team Creation</h3>
             <p>
-              In 2007, was hired as the first of two UX developers for optimizing landing pages and email campaigns. By 2008, contributed as decision maker for the hiring of a 6-person team, including a referral for the UX Director from Hayneedle who led our team.
+              In 2007, was hired as the first of two UX Designers for improving landing pages and email campaigns. By 2008, contributed as decision maker for the hiring of a 6-person team, including a referral for the UX Director from Hayneedle who led our team.
             </p>
           </li>
         </ul>
@@ -156,7 +156,7 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>words to develop by</h2>
+          <h2>words to design by</h2>
           <p>
             Always judge the design by the results that it causes in human behavior.
           </p>

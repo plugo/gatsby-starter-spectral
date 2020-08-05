@@ -613,14 +613,14 @@
 /* Image */
 
 	.image {
-		border-radius: 3px;
+		border-radius: 0;
 		border: 0;
 		display: inline-block;
 		position: relative;
 
 		img {
-			border: 1px solid _palette(accent2, border);
-			border-radius: 3px;
+			box-shadow: 0 0 2px 0 #c4c7cc;
+			border-radius: 0;
 			display: block;
 		}
 
@@ -646,9 +646,16 @@
 		}
 
 		&.fit {
+			cursor: pointer;
 			display: block;
 			margin: 0 0 _size(element-margin) 0;
+			transition: box-shadow .25s ease-in-out;
 			width: 100%;
+
+			&:hover,
+			&:focus {
+				box-shadow: 0 8px 10px 0 rgba(69,77,87,.32);
+			}
 
 			img {
 				width: 100%;
@@ -997,6 +1004,11 @@
 			position: relative;
 			text-align: left;
 			width: 50%;
+
+			a:hover,
+			a:focus {
+				color: _palette(accent2, bg);
+			}
 
 			@for $i from 1 through _misc(max-features) {
 				$j: 0.035 * $i;
@@ -1559,6 +1571,10 @@
 							border-radius: 3px 0 0 3px;
 							opacity: .75;
 
+							&:hover {
+								opacity: 1;
+							}
+
 							&:after {
 								background-image: url('../images/bars.png');
 								background-position: right center;
@@ -1675,6 +1691,10 @@
 			text-transform: uppercase;
 			width: 16em;
 			z-index: 1;
+
+			&:focus {
+					outline: 1px dotted #00ffcc;
+				}
 
 			&:after {
 				background-image: url('../images/arrow.png');
