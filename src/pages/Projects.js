@@ -2,21 +2,18 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import app01 from '../assets/images/app01.png';
+import app1 from '../assets/images/app01.png';
 import id1 from '../assets/images/ideation01.jpg';
-import id2 from '../assets/images/ideation02.jpg';
-import id3 from '../assets/images/ideation03.jpg';
-import pro1 from '../assets/images/proto01.png';
-import pro2 from '../assets/images/proto02.png';
-import pro3 from '../assets/images/proto03.png';
-import ui1 from '../assets/images/ui01.png';
-import ui2 from '../assets/images/ui02.png';
-import ui3 from '../assets/images/ui03.png';
-import fin1 from '../assets/images/final01.jpg';
-import fin2 from '../assets/images/final02.jpg';
-import rep1 from '../assets/images/report01.jpg';
-import rep2 from '../assets/images/report02.jpg';
-import fail1 from '../assets/images/fail01.png';
+import id2 from '../assets/images/ideation02.png'
+import id6 from '../assets/images/ideation06.png';
+import id7 from '../assets/images/ideation07.png';
+import pro1 from '../assets/images/proto04.png';
+import pro2 from '../assets/images/proto05.png';
+import pro3 from '../assets/images/proto06.png';
+import fin1 from '../assets/images/final01.png';
+import fin2 from '../assets/images/final02.png';
+import fin3 from '../assets/images/final03.png';
+import gar1 from '../assets/images/gar01.jpg';
 import banner from '../assets/images/legacy.png';
 const IndexPage = () => <Layout>
 	<article id="main">
@@ -28,37 +25,19 @@ const IndexPage = () => <Layout>
 			<div className="inner">
 				<section>
 					<header>
-						<h4>Spaces Reorganization</h4>
-						<p>An internal CMS/CRM application known as Spaces was restructured, redesigned, and launched in June 2020.</p>
+						<h4>Spaces Redesign</h4>
+						<p>A proprietary .NET Content Management System known as Gallup Spaces</p>
 					</header>
 					<h5>Overview</h5>
-					<p>The Spaces application serves Gallup associates whose mission is to impact every individual passing through our internal strengths-based system from the sales funnel, email marketing campaigns, new app creations, and configurations for password-protected client sites and public-facing pages. There was a huge backlog of user complaints, bug fixes and slated improvements. Since the applications are for internal use only, the Spaces team does not have access to the usability lab or user testing apps with limited resources, so I took on the dedicated UX strategy and designer role.</p>
-					<div className="row">
-						<div className="col-6 col-12-medium">
-							<h5>Technologies used:</h5>
-							<ul>
-								<li>.NET Web Forms platform</li>
-								<li>Outdated Telerik plugins</li>
-								<li>Bootstrap 3</li>
-								<li>2 versions of the Font Awesome library</li>
-								<li>35 non-minified CSS files referenced individually</li>
-								<li>Numerous external non-minifed JavaScript files</li>
-								<li>260 colors</li>
-								<li>800 used and unused images</li>
-								<li>12 web fonts</li>
-								<li>Average page load time of 27 seconds</li>
-							</ul>
-						</div>
-					</div>
-					<p>As illustrated below, hierarchial elements did not flow well especially with pages that contained a primary, secondary and often tertiary navigation, all separated by buttons or content from each other causing too much up and down scrolling. There was a lot of spatial mouse movements, accessibility issues, often endless scrolling on large tabular data, and no vertical rhythm with a baseline font of 13 pixels. Actionable items on what to do next, or where to continue were often confusing.</p>
+					<p>The Spaces application serves Gallup associates whose mission is to impact every individual passing through our internal strengths-based system from the sales funnel, email marketing campaigns, new site wizard, and configurations for password-protected client sites and public-facing pages. There was a huge backlog of user complaints, bug fixes and slated improvements. Since the application is for employee use only, the Spaces team does not have access to the usability lab or user testing apps with limited UX team resources. I took on the role as a UX team of one. The screenshot below depicts the legacy application built in 2008.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-							<div className="col-12"><span className="image fit"><img src={banner} alt="screenshot of a legacy CMS application" /></span></div>
+							<div className="col-12"><span className="image fit"><img src={banner} alt="screenshot of a legacy .NET CMS application" /></span></div>
 						</div>
 					</div>
 					<hr />
 					<h5>Challenge</h5>
-					<p>The Software Architect challenged our team with a common situation - to rethink and reorganize the Spaces application. The underlying back-end processes were to remain as close to the original as possible so as not to disrupt or cause a lot of relearning for our user base. Mobile device was limited to tablet landscape. At the end of 2018, internal browser support consisted of Chrome, Safari, and IE11.</p>
+					<p>The Software Architect challenged our team with a common situation - to rethink, reorganize, and redesign Spaces to replace the business-critical legacy .NET web forms CMS. The dev team ultimately got the approval to upgrade to the latest cutting-edge .NET Blazor WebAssembly framework.</p>
 					<div className="row">
 						<div className="col-6 col-12-medium">
 							<h5>Our internal audience consists of:</h5>
@@ -74,38 +53,42 @@ const IndexPage = () => <Layout>
 					</div>
 					<hr />
 					<h5>Approach</h5>
-					<p>Over the course of the engagement, I worked in 2-week sprints beginning with a discovery phase observing user behavior, building user scenarios, and creating journey maps. My user testing method was an email questionaire followed by in-person observations of these audience participants completing a number of tasks specific to their role. Documented task analyses, page flows, and scope (<em>must have, nice to have, follow-up</em>). Created a matrix-style document for reference and collaborated with the Scrum Master to flesh out a strategic roadmap.</p>
+					<p>Over the course of the engagement, I worked in 2-week sprints beginning with a discovery and strategy phase gathering requirements, observing user behavior, building user stories, and creating user/task flows, and page flows. Performed a heuristic evaluation, and several audits including accessilibity, site performance, images, colors, and fonts. My user testing method was an email questionnaire followed by in-person observations of these audience participants completing a number of tasks specific to their role. Documented task analyses, page flows, recommendations based on user insights, and scope (<em>must have, nice to have, follow-up</em>). Researched and documented vertical form standards based on user insights. Created a matrix-style excel spreadsheet for reference and collaborated with the Scrum Master to flesh out a strategic roadmap in Confluence. I was tasked with redesigning 28 Spaces, roughly 4-24 pages per space and suggested we focus on a Prospects and a Coaching space as the top priority due to a marketing automation tool that was being developed in parallel.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-							<div className="col-12"><span className="image fit"><img src={app01} alt="page flow example" /></span></div>
+							<div className="col-12"><span className="image fit"><img src={app1} alt="minimal pages outline" /></span></div>
 						</div>
 					</div>
-					<p>Moved on to ideation after approvals, sketched out rough mockups often brainstorming with the Software Architect or team leading into low-fidelity prototypes with an eye on technical feasibility and accessibility. Design principles followed clarity over abundance of choices, maintaining a touch target size of 42-48 pixels for future tablet use, and aiming to keep the complexity of choices down to ease the cognitive load users had constantly complained about.</p>
+					<p>Moved on to ideation after approvals to business requirements and user goals were met. Sketched out numerous wireframes often brainstorming with the Architect or team leading into low-fidelity prototypes with an eye on technical feasibility and accessibility. Design principles followed clarity over abundance of choices, maintaining a touch target size of 42 pixels for future tablet use, and aiming to keep the complexity of choices down to ease the cognitive load users had constantly complained about. There were many times I revisited the discovery phase for clarity and to understand some questions that came up.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-							<div className="col-4"><span className="image fit"><img src={id1} alt="sketchbooks with ideas" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={id2} alt="first version of home page low-fidelity prototype" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={id3} alt="second version of home page low-fidelity prototype" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={id1} alt="pen and paper sketch notebook" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={id6} alt="homepage alternate low fidelity" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={id7} alt="prospects timeline concept low fidelity" /></span></div>
 						</div>
 					</div>
-					<p>At the high-fidelity prototype stage, user testing began on a regular basis in peer reviews and quick demos with a small group of target audience members. The goal was less clicks, less scrolling, sensible, consistent, and meaningful. With each iteration, the interface became more refined while building an inventory of reusable patterns. Partnered with another designer on the aesthetic-usability effect moving from a grayscale color palette while staying within brand and WCAG guidelines.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-							<div className="col-4"><span className="image fit"><img src={pro1} alt="high-fidelity of home page" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pro2} alt="high-fidelity of add category page" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={pro3} alt="high-fidelity of ui components" /></span></div>
+							<div className="col-12"><span className="image fit"><img src={id2} alt="first version of home page low-fidelity prototype" /></span></div>
 						</div>
 					</div>
-					<p>Once we reached the user interface development phase, parallel work was completed for the front-end workflow setup in Visual Studio and Github. Proof-of-concepts began in <a href="https://codepen.io/plugo/">CodePen</a> while waiting on a dedicated Sandbox environment. As I completed coding tickets, collaboration began with the .NET developers to build out an extensive library of modules making sure visuals matched the prototypes.</p>
+					<p>At this point, I worked with a brand designer to approve standards making the swtich from a 206-color palette to a 12-color palette while adhering to WCAG 2.0 guidelines. After I created a high-fidelity Adobe XD interactive prototype, user testing began on a regular basis with small groups of target audience members. The prototype was also used to provide guidance to the dev team, QA, and to gather insights on peer and stakeholder reviews. With each iteration, the interface became more refined. The end result was less clicks, less scrolling, leaning towards sensible, consistent, and meaningful design principles. </p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-							<div className="col-4"><span className="image fit"><img src={ui1} alt="bootstrap 4 setup" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={ui2} alt="dropdown test code" /></span></div>
-							<div className="col-4"><span className="image fit"><img src={ui3} alt="visual studio example of development code" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pro1} alt="high-fidelity of page filters" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pro2} alt="high-fidelity of user interface elements" /></span></div>
+							<div className="col-4"><span className="image fit"><img src={pro3} alt="high-fidelity of homepage" /></span></div>
+						</div>
+					</div>
+					<p>Immediately following the approval of the high-fidelity prototypes, I was tasked to complete the front-end workflow setup in Visual Studio and Github, again, due to the lack of front-end developer resource. Proof-of-concepts began in <a href="https://codepen.io/plugo/">CodePen</a> while waiting on a dedicated Sandbox environment. As I completed HTML/CSS tickets, collaboration began with the .NET developers to build out an extensive library of reusable and scalable modules making sure all of the site elements and components matched the final prototypes.</p>
+					<div className="box alt">
+						<div className="row gtr-50 gtr-uniform">
+							<div className="col-6"><span className="image fit"><img src={fin1} alt="coach list event collection on production" /></span></div>
+							<div className="col-6"><span className="image fit"><img src={fin2} alt="spaces homepage on production" /></span></div>
 						</div>
 					</div>
 					<h5>Final Product</h5>
-					<p>Through the evolution of retooling our front-end workflow the decision was made to drop jQuery and move to vanilla JavaScript since Bootstrap 5 is headed in that direction. Worked with a developer who had recommended the use of JavaScript plugins to match prototypes, but the team made the decision to translate these to C# components. Browser support was upgraded to Edge, Chromium Edge, the latest versions of Chrome, Firefox, and Safari. Mobile devices will be iOS and Android tablets.</p>
+					<p>Once the initial redesign of two Spaces was implemented succesfully, the remaining 26 were converted to the new design upgrading 1-3 sites per sprint depending on complexity. Some were relatively easy, simply moving straight to code, or at least, creating quick prototypes for testing prior to coding. Others were more involved where new components required wireframing to prototyping and testing. There was one Space where I needed to jump back into research and go through the entire process again, but it progressed at a much faster rate. Updated the Gallup Spaces Style Guide and Web Accessibility Standards Confluence docs.</p>
 					<div className="row">
 						<div className="col-6 col-12-medium">
 							<h5>Updated technologies used:</h5>
@@ -117,14 +100,26 @@ const IndexPage = () => <Layout>
 								<li>12 brand colors with 2 validation colors</li>
 								<li>2 SVG sprites and 6 png images</li>
 								<li>2 web fonts</li>
-								<li>Lighthouse score is 85 with average load time of 1.27 seconds</li>
+								<li>Lighthouse score is 85 with an average load time of 1.27 seconds</li>
 							</ul>
 						</div>
 					</div>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
-							<div className="col-6"><span className="image fit"><img src={fin1} alt="production page for add events" /></span></div>
-							<div className="col-6"><span className="image fit"><img src={fin2} alt="production page for home page" /></span></div>
+							<div className="col-12"><span className="image fit"><img src={fin3} alt="coach list add events on production" /></span></div>
+						</div>
+					</div>
+					<hr />
+				</section>
+				<section>
+					<header>
+						<h4>Gallup Analytics and Reporting</h4>
+						<p>Data Visualization</p>
+					</header>
+					<p>Collaborated with Ember front-end developers to bring design leadership and creative thinking to data-driven analytics and content for desktop and mobile applications.</p>
+					<div className="box alt">
+						<div className="row gtr-50 gtr-uniform">
+							<div className="col-12"><span className="image fit"><img src={gar1} alt="desktop and mobile data visualization examples" /></span></div>
 						</div>
 					</div>
 					<hr />
@@ -138,34 +133,14 @@ const IndexPage = () => <Layout>
 					<p>During my time on the DotCom team, I was responsible for redesigning the report pages configured through a series of tabs containing SEO tags, related items, a content editor, tile generator, and asset management in the CMS. Editors and copywriters published their reports and articles here and I was their designer/developer support.</p>
 					<p>Since these reports were pre-existing and simply outdated, the redesign started with some quick sketch work and moved directly to high-fidelity prototypes. Several original pages were printed out and taped to the wall for reference as designs were refined. This particular report is immediately downloadable simply by selecting one of the buttons.</p>
 					<p>Live example: <a href="https://www.gallup.com/education/267449/creativity-learning-transformative-technology-gallup-report-2019.aspx">Creativity in Learning</a></p>
-					<div className="box alt">
-						<div className="row gtr-50 gtr-uniform">
-							<div className="col-12"><span className="image fit"><img src={rep1} alt="creativity in learning report" /></span></div>
-						</div>
-					</div>
 					<hr />
 					<h5>Two-part Report Download Request</h5>
 					<p>This type of report takes considerable more research and is usually a larger document. The trade-off is capturing user information in a form to gain acess to download the report, and a potential sales lead. A form webpart template was created so all the editor is required to do is attach this module as a related item.</p>
 					<p>Live example: <a href="https://www.gallup.com/education/269648/state-america-schools-report.aspx">State of America's Schools</a></p>
-					<div className="box alt">
-						<div className="row gtr-50 gtr-uniform">
-							<div className="col-12"><span className="image fit"><img src={rep2} alt="state of america's schools report" /></span></div>
-						</div>
-					</div>
 					<hr />
 				</section>
-				<section>
-					<header>
-						<h4>Rejected Prototype</h4>
-						<p>Concept for the Prospects domain scorecard, search results, subscribe, and unsubscribe process</p>
-					</header>
-					<p>This prototype never made it past the Software Architect and stakeholder approval before user testing could take place. The concept wasn't completely scrapped though, the tabular data section, export and pagination elements are used in the Prospects site today. A single auto-suggest search field on an otherwise empty page is all that is presented to the user to query domain names. Upon successful submission, the page refreshes with the tabular data and each row links to individual subscriptions. Iterative design enhancements continue.</p>
-					<div className="box alt">
-						<div className="row gtr-50 gtr-uniform">
-							<div className="col-12"><span className="image fit"><img src={fail1} alt="individual profile for prospect lead" /></span></div>
-						</div>
-					</div>
-				</section>
+
+
 			</div>
 		</section>
 	</article>
