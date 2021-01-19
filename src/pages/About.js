@@ -7,17 +7,16 @@ const IndexPage = () => (
     <article id="main">
       <header>
         <h2>Who is this guy?</h2>
-        <p>Improving the digital experience for Gallup</p>
+        <p>Improving the digital experience</p>
       </header>
       <section className="wrapper style5">
         <div className="inner">
           <h3>Overview</h3>
-          <p>I've been designing web and mobile interfaces and leading UX projects for the past 20 years. Have played almost every role on the user experience spectrum and worked on all types of digital projects, as both a corporate UXer and a consultant for startups.</p>
-          <p>Currently, I work at <a href="https://www.gallup.com/home.aspx">Gallup</a> based in Omaha, Nebraska. My work combines a background in graphic design with technology and user-centered design thinking. My goal is driving the daily execution of UX and my mission is discovering how we need to improve, setting a vision and strategy, and creating the right processes to balance business requirements with user needs.</p>
-          <p>Based on the iterative nature of our projects, we actively identify problem areas experienced from our audience, drop tickets in our backlog, prioritize tasks, and iterate the design in the search for optimized performance.</p>
-          <p>User behavior is studied extensively across Gallup's sites by A/B or multi-variate testing and hypotheses are created based on this data. I will take a look at best practices, but have found for our internal applications that we get better results with data-driven solutions. Some of the methods employed at Gallup are user surveys, a usability lab, and customer feedback.</p>
-          <p>In my case, since my current role is lead for our internal proprietary CMS and CRM, I simply walk and sit with our users (developers, editors, copywriters, project managers and administrators) or send out an email with focused questions to understand any trouble areas they are experiencing before, during, and after product releases. We also publish a post-release newsletter with a link to a feedback form the week after implementation, but our audience knows they can reach out to me anytime.</p>
-          <p>During 2006, while employed at <a href="https://www.hayneedle.com/">Hayneedle</a>, the UX team followed a 4-step process: product discovery, ideation, prototyping, and interaction testing. This strategy was used in 2012 to collaborate with a team to iterate <a href="https://www.orientaltrading.com/">Oriental Trading</a> company's <a href="https://www.orientaltrading.com/50th-anniversary-party-photo-custom-banner-medium-a2-13611281.fltr?categoryId=551269+1248+18">personalized product initiative</a> with continuous improvements. I have continued through the years to utilize some form of this design strategy with great success.</p>
+          <p>Throughout my career, I have designed desktop and mobile interfaces, built interactive components, and led teams to redesign the end-to-end user experience. I have performed almost every role on the user experience spectrum having worked on all types of digital projects, I bring the added benefit of translating my designs to front-end development, including: advanced HTML5, CSS and Sass with just enough JavaScript experience to be dangerous, but always able get my point across.</p>
+          <p>Currently, I work at <a href="https://www.gallup.com/home.aspx" title="Analytics and Advice">Gallup</a> based in Omaha, Nebraska and take on freelance jobs through <a href="https://www.upwork.com/" title="Freelance Marketplace">UpWork</a>. I began with a background in graphic and interaction design, transitioned into web design and technology, and eventually landed in the realm of UX development. My goal is driving the daily execution of UX and my mission is discovering how businesses need to improve, setting  vision and strategies, and creating the right processes to balance business requirements with user needs.</p>
+          <p>I have studied user behavior extensively in A/B or multi-variate testing where hypotheses are created based on this data. I look at best practices and industry standards, but often find better results are achieved with data-driven solutions. Some of the methods I have employed are interviews, surveys, and field study observations.</p>
+          <p>Since my latest role was lead for an internal proprietary content management system, I had one-on-one conversations with our target audience (developers, editors, copywriters, project managers and administrators). Early on, I sent out an email with focused questions to understand any problem areas they were experiencing. I also published a post-release newsletter with a link to a feedback form a few days after implementation.</p>
+          <p>During 2006, while employed at <a href="https://www.hayneedle.com/">Hayneedle</a>, the UX team followed a 4-step process: product discovery, ideation, prototyping, and interaction testing. This strategy was used in 2012 to collaborate with a team to iterate <a href="https://www.orientaltrading.com/">Oriental Trading</a> company's <a href="https://www.orientaltrading.com/50th-anniversary-party-photo-custom-banner-medium-a2-13611281.fltr?categoryId=551269+1248+18">personalized product initiative</a> with continuous improvements. I have continued through the years utilizing Lean UX, Design Thinking, and User-Centered Design processes.</p>
           <p>At the end of the day, I prefer exhibiting empathy and humility and love working with good people who care about customers and each member of the team.</p>
 
           <h4>My approach to creative thinking</h4>
@@ -27,7 +26,7 @@ const IndexPage = () => (
                 <li>Recommend tactics and features that will best serve the user, the business, and technology.</li>
                 <li>Conceptualize ideal user interaction paths/task flows/scenarios, etc. based on research data.</li>
                 <li>Lead the multi-disciplinary team through mockups, low and high-fidelity prototyping, to promote design thinking and establish intuitive interaction design patterns.</li>
-                <li>Celebrate, debate, and build with the team.</li>
+                <li>Celebrate, debate, build, and respect the team.</li>
               </ul>
 
           <p>
@@ -65,7 +64,7 @@ const IndexPage = () => (
             <p>An adventurous 3600+ mile round trip</p>
           </header>
           <p>Every year for the past four years we have made a road trip to Washington state to visit my daughter and her family, not taking the same route twice. We have hiked and biked trails along the Columbia River, on Mt. Rainier, Mt. Evans, Oregon beaches, Multnomah Falls, Gallatin Gateway, Yellowstone, Devil's Tower and various other scenic points along the way. We've seen black bear, elk, bison, eagles, antelope, marmots, mule deer, mountain goats and bighorn sheep. We've driven past a tornado in Colorado, witnessed the eclipse on the way to Mt. Rainier, had to turn around in a Wyoming snowstorm, drove a hundred miles in Utah mountain fog, drove through thick smoke and saw distant forest fires in Montana and&#8230;the adventure continues.</p>
-          <p>If you've made it this far, a fun fact about me&#8212;prior to my career as a UX professional, I managed a cattle ranch and found I had a natural talent with horses. Eventually, I formed a business working with difficult or problem horses in Mariposa County California, and the foothills of Mt. Rainier. It's a little ironic that I ended up working for a company named Gallup.</p>
+          <p>If you've made it this far, a fun fact about me&#8212;prior to my career as a UX professional, I worked with difficult and problem horses in Mariposa-Madera counties of California, and the foothills of Mt. Rainier. </p>
         </div>
       </section>
     </article>

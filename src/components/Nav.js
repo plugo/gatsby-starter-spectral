@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 export default function Nav({ onMenuToggle = () => {} }) {
-  return (
-    <nav id="nav">
+    return (
+        <nav id="nav" class="navigation">
       <ul>
-        <li className="special">
+        <li className="special navigation_button">
           <a
             href="#menu"
             onClick={e => {
@@ -14,18 +14,19 @@ export default function Nav({ onMenuToggle = () => {} }) {
             }}
             className="menuToggle"
           >
-            <span>Menu</span>
+            <span className="navigation_icon"></span>
           </a>
-          <div id="menu">
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
+
+          <div id="menu" className="navigation_nav">
+            <ul className="navigation_list">
+              <li className="navigation_item">
+                <Link to="/" className="navigation_link">Home</Link>
               </li>
-              <li>
-                <Link to="/About">About</Link>
+              <li className="navigation_item">
+                <Link to="/About" className="navigation_link">About</Link>
               </li>
-              <li>
-                <Link to="/Projects">Projects</Link>
+              <li className="navigation_item">
+                <Link to="/Projects" className="navigation_link">Projects</Link>
               </li>
             </ul>
             <a
@@ -39,8 +40,9 @@ export default function Nav({ onMenuToggle = () => {} }) {
               {''}
             </a>
           </div>
+
         </li>
       </ul>
     </nav>
-  );
+    );
 }

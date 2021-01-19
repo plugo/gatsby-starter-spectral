@@ -18,8 +18,8 @@ import banner from '../assets/images/legacy.png';
 const IndexPage = () => <Layout>
 	<article id="main">
 		<header>
-			<h2>Gallup Projects</h2>
-			<p>Never forget the ultimate goal: Solving your user's problems</p>
+			<h2>Projects</h2>
+			<p>Solving user problems</p>
 		</header>
 		<section className="wrapper style5">
 			<div className="inner">

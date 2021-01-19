@@ -20,17 +20,13 @@ const IndexPage = () => (
           <li>
             <Scroll type="id" element="one">
               <a href="/#" className="button primary">
-                Explore
+                Giddy-Up!
               </a>
             </Scroll>
           </li>
         </ul>
       </div>
-      <Scroll type="id" element="one">
-        <a href="#one" className="more">
-          Giddy-up!
-        </a>
-      </Scroll>
+
     </section>
 
     <section id="one" className="wrapper style1 special">
@@ -99,7 +95,7 @@ const IndexPage = () => (
             Prototyping
           </h2>
           <p>
-            From ideation comes the high-fidelity vision prototype. I use Adobe XD for wireframes, quick mockups, and prototyping. During prototype development, testing becomes the norm in peer reviews to show progress and gather feedback from members of our audience when available. Once high-fidelity prototype is complete, the team presents it to the stakeholders and a handful of users as a pre-development check.
+            From ideation comes the high-fidelity vision prototype. I use Adobe XD for wireframes, quick mockups, and two-levels of prototyping. During prototype development, testing takes place in peer reviews to show progress and gather feedback from members of our audience when available. Once high-fidelity prototype is complete, the team presents it to the stakeholders and a handful of users as a pre-development check.
           </p>
         </div>
       </section><section className="spotlight">
@@ -108,10 +104,10 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Interaction Testing
+            Interaction Design
           </h2>
           <p>
-            The interaction testing step isn't really sequential, and in reality, none of these steps follow a specific order but they are all part of the process whether it's repeated in an interative manner or developed in parallel. The interactive part of it is simply testing the high-fidelity prototype to improve on ideas and bring out insights for refinements if needed.
+            The interaction design step isn't really sequential, and in reality, none of these steps follow a specific order but they are all part of the process whether it's repeated in an interative manner or developed in parallel. The interactive part of it is simply testing the high-fidelity prototype in code to improve on ideas and bring out insights for refinements if needed. If not already setup, the build tools are defined and put in place so I can begin building and tesing in a sandbox environment.
           </p>
         </div>
       </section>

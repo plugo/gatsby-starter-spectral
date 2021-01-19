@@ -16,7 +16,7 @@ export default function Footer() {
         })}
       </ul>
       <ul className="copyright">
-        <li>&copy; 2020 UX Omaha</li>
+        <li>&copy; 2021 UX Omaha</li>
         <li>
           Built With: Gatsby and Netlify
         </li>
