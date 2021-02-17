@@ -12,14 +12,14 @@ import config from '../../config';
 
 const IndexPage = () => (
   <Layout>
-    <section id="banner">
+    <section id="banner" role="banner">
       <div className="inner">
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
         <ul className="actions special">
           <li>
             <Scroll type="id" element="one">
-              <a href="/#" className="button primary">
+              <a href="/#" className="button primary" aria-label="Go to the next section">
                 Giddy-Up!
               </a>
             </Scroll>

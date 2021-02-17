@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 export default function Nav({ onMenuToggle = () => {} }) {
     return (
-        <nav id="nav" class="navigation">
+        <nav id="nav" class="navigation" role="navigation">
       <ul>
         <li className="special navigation_button">
           <a
@@ -12,7 +12,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               e.preventDefault();
               onMenuToggle();
             }}
-            className="menuToggle"
+            className="menuToggle" aria-label="Open menu"
           >
             <span className="navigation_icon"></span>
           </a>
@@ -35,7 +35,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
                 e.preventDefault();
                 onMenuToggle();
               }}
-              href="#menu" role="presentation" aria-label="Close menu"
+              href="#menu" aria-label="Close menu"
             >
               {''}
             </a>

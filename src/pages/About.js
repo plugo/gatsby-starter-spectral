@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 
 const IndexPage = () => (
     <Layout fullMenu>
-    <article id="main">
+    <article id="main" role="main">
       <header>
         <h2>Who is this guy?</h2>
         <p>Improving the digital experience</p>
@@ -12,7 +12,7 @@ const IndexPage = () => (
       <section className="wrapper style5">
         <div className="inner">
           <h3>Overview</h3>
-          <p>Throughout my career, I have designed desktop and mobile interfaces, built interactive components, and led teams to redesign the end-to-end user experience. I have performed almost every role on the user experience spectrum having worked on all types of digital projects, I bring the added benefit of translating my designs to front-end development, including: advanced HTML5, CSS and Sass with just enough JavaScript experience to be dangerous, but always able get my point across.</p>
+          <p>Throughout my career, I have designed mobile, tablet and desktop interfaces, built interactive components, and led teams to redesign the end-to-end user experience. I have performed almost every role on the user experience spectrum having worked on all types of digital projects, I bring the added benefit of translating my designs to front-end development, including: advanced HTML5, CSS and Sass with just enough JavaScript experience to be dangerous, but always able get my point across.</p>
           <p>Currently, I work at <a href="https://www.gallup.com/home.aspx" title="Analytics and Advice">Gallup</a> based in Omaha, Nebraska and take on freelance jobs through <a href="https://www.upwork.com/" title="Freelance Marketplace">UpWork</a>. I began with a background in graphic and interaction design, transitioned into web design and technology, and eventually landed in the realm of UX development. My goal is driving the daily execution of UX and my mission is discovering how businesses need to improve, setting  vision and strategies, and creating the right processes to balance business requirements with user needs.</p>
           <p>I have studied user behavior extensively in A/B or multi-variate testing where hypotheses are created based on this data. I look at best practices and industry standards, but often find better results are achieved with data-driven solutions. Some of the methods I have employed are interviews, surveys, and field study observations.</p>
           <p>Since my latest role was lead for an internal proprietary content management system, I had one-on-one conversations with our target audience (developers, editors, copywriters, project managers and administrators). Early on, I sent out an email with focused questions to understand any problem areas they were experiencing. I also published a post-release newsletter with a link to a feedback form a few days after implementation.</p>

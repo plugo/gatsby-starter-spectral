@@ -47,7 +47,7 @@ class Layout extends Component {
               title={data.site.siteMetadata.title}
               meta={[
                 { name: 'description', content: 'Paul Lugo UX Developer projects and other cool stuff' },
-                { name: 'keywords', content: 'ux, developer, omaha, nebraska, projects, sketches, wireframes, prototypes' },
+                { name: 'keywords', content: 'ux, developer, omaha, nebraska, projects, html, css, sass, sketches, wireframes, prototypes' },
               ]}
             >
               <html lang="en" />

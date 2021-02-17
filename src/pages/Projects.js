@@ -25,10 +25,10 @@ const IndexPage = () => <Layout>
 			<div className="inner">
 				<section>
 					<header>
-						<h4>Spaces Redesign</h4>
+						<h3>Spaces Redesign</h3>
 						<p>A proprietary .NET Content Management System known as Gallup Spaces</p>
 					</header>
-					<h5>Overview</h5>
+					<h4>Overview</h4>
 					<p>The Spaces application serves Gallup associates whose mission is to impact every individual passing through our internal strengths-based system from the sales funnel, email marketing campaigns, new site wizard, and configurations for password-protected client sites and public-facing pages. There was a huge backlog of user complaints, bug fixes and slated improvements. Since the application is for employee use only, the Spaces team does not have access to the usability lab or user testing apps with limited UX team resources. I took on the role as a UX team of one. The screenshot below depicts the legacy application built in 2008.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
@@ -36,7 +36,7 @@ const IndexPage = () => <Layout>
 						</div>
 					</div>
 					<hr />
-					<h5>Challenge</h5>
+					<h4>Challenge</h4>
 					<p>The Software Architect challenged our team with a common situation - to rethink, reorganize, and redesign Spaces to replace the business-critical legacy .NET web forms CMS. The dev team ultimately got the approval to upgrade to the latest cutting-edge .NET Blazor WebAssembly framework.</p>
 					<div className="row">
 						<div className="col-6 col-12-medium">
@@ -52,7 +52,7 @@ const IndexPage = () => <Layout>
 						</div>
 					</div>
 					<hr />
-					<h5>Approach</h5>
+					<h4>Approach</h4>
 					<p>Over the course of the engagement, I worked in 2-week sprints beginning with a discovery and strategy phase gathering requirements, observing user behavior, building user stories, and creating user/task flows, and page flows. Performed a heuristic evaluation, and several audits including accessilibity, site performance, images, colors, and fonts. My user testing method was an email questionnaire followed by in-person observations of these audience participants completing a number of tasks specific to their role. Documented task analyses, page flows, recommendations based on user insights, and scope (<em>must have, nice to have, follow-up</em>). Researched and documented vertical form standards based on user insights. Created a matrix-style excel spreadsheet for reference and collaborated with the Scrum Master to flesh out a strategic roadmap in Confluence. I was tasked with redesigning 28 Spaces, roughly 4-24 pages per space and suggested we focus on a Prospects and a Coaching space as the top priority due to a marketing automation tool that was being developed in parallel.</p>
 					<div className="box alt">
 						<div className="row gtr-50 gtr-uniform">
@@ -87,7 +87,7 @@ const IndexPage = () => <Layout>
 							<div className="col-6"><span className="image fit"><img src={fin2} alt="spaces homepage on production" /></span></div>
 						</div>
 					</div>
-					<h5>Final Product</h5>
+					<h4>Final Product</h4>
 					<p>Once the initial redesign of two Spaces was implemented succesfully, the remaining 26 were converted to the new design upgrading 1-3 sites per sprint depending on complexity. Some were relatively easy, simply moving straight to code, or at least, creating quick prototypes for testing prior to coding. Others were more involved where new components required wireframing to prototyping and testing. There was one Space where I needed to jump back into research and go through the entire process again, but it progressed at a much faster rate. Updated the Gallup Spaces Style Guide and Web Accessibility Standards Confluence docs.</p>
 					<div className="row">
 						<div className="col-6 col-12-medium">
